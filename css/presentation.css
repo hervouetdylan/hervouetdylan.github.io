@@ -1,0 +1,117 @@
+* {
+    background-color: #24252a;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav img{
+    height: 80px;
+    width: 80px;
+    border-radius: 90px;
+    margin: auto;
+}
+
+nav h1 {
+    margin-right: 650px ;
+}
+
+nav ul {
+    background-color: #0088a9;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+nav ul li {
+    background-color: #0088a9;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    background-color: #0088a9;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+
+
+
+/* Présentation S2E */
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.haut {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.presentation {
+    text-align: center;
+    height: 550px;
+    width: 350px;
+}
+
+.organisation {
+    text-align: center;
+    height: 550px;
+    width: 350px;
+}
+
+.servinfo {
+    text-align: center;
+    height: 550px;
+    width: 350px;
+}
+
+.haut img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+/* Présenatation activité */
+
+.a {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.b {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.c {
+    display:flex ;
+    justify-content :space-evenly;
+    margin-top: 30px;
+}
+
+.b img {
+    width: 1000px;
+}

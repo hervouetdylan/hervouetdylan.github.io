@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/presentation.css" rel="stylesheet">
+    <title>Présentation</title>
+
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+    <!-- NavBar -->
+    <div class="navbar">
+        <nav>
+            <img src="../image/Scan 4.jpeg">
+            <h1>Dylan Hervouet</h1>
+            <ul>
+                <li>
+                    <a href="A propos.html">A propos</a>
+                </li>
+                <li>
+                    <a href="presentation.html">Présentation S2E</a>
+                </li>
+                <li>
+                    <a href="Articles.html">Article</a>
+                </li>
+                <li>
+                    <a href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Presentation S2E -->
+    <div class="haut">
+        <div class="presentation">
+            <img src="../image/logo S2E.2.jpeg">
+            <h3>S2E c'est quoi ?</h3>
+            <p>S2E est une organisation qui ne génère pas de revenu. Son objectif est de mettre en place un système informatique le plus 
+               adapté possible avec les fonds fournis par les entreprises mères. Les entreprises mères comprennent la Société Générale, 
+               BNP Paribas, AXA, HSBC, qui sont toutes des banques.</p>
+        </div>
+        <div class="organisation">
+            <img src="../image/organigrame.png">
+            <h3>Comment ce régi l'organisation de S2E ?</h3>
+            <p>S2E compte environ 450 collaborateurs répartis sur deux sites. L'un est situé à La Défense à Paris, "la Grande Arche", et 
+               représente 40 % du personnel. Ce site est principalement composé de membres du BackOffice, de l'Architecture et de la direction. 
+               L'autre site est situé à Nantes et représente les 60 % restants de l'effectif de S2E. Il est principalement composé de membres de 
+               la Système d'Information (SI). Pour ma part, je faisais partie de l'équipe INFRA, positionnée en bas à gauche de l'organisation. 
+               Mon responsable direct était Jean-Jacques Perroux. L'équipe Infra est divisée en quatre sous-équipes : SecOps, DevOps, Coorda et 
+               SysOps, comme je le développerai plus bas.
+            </p>
+        </div>
+        <div class="servinfo">
+            <img src="../image/parcinfo.jpeg">
+            <h3>Parc informatique</h3>
+            <p> En ce qui concerne le parc informatique, ils disposent d'un noyau appelé NOEE. NOEE est le cœur de S2E et tout est construit 
+                autour de lui. Si NOEE ne fonctionne plus, c'est l'ensemble de S2E qui est impacté. L'intranet, les sites web des entreprises 
+                mères (à destination des salariés et des clients), ainsi que les applications mobiles, tout repose sur NOEE. NOEE est un système 
+                basé sur ORACLE, et Thalès en est le responsable administratif. Ils possèdent deux serveurs physiques, un CITRIX et un ESX, qui 
+                sont majoritairement composés à 75 % de RHEL 7-8 et à 25 % de serveurs Windows. Cependant, S2E dispose également de serveurs virtuels, 
+                principalement basés sur RHEL 7-8.
+            </p>
+        </div>
+    </div>
+
+    <!-- Présentation Activité -->
+    <h2>Activité</h2>
+    <h3>Dans cette partie je vais présenter une activité réalisé chez S2E</h3>
+    <div class="a">
+        <p>L'objectif ici est de réaliser une gestion des correctifs (patch management), c'est-à-dire d'installer les dernières mises à jour sur les serveurs.<br><br>
+
+            Avant de débuter le processus de patch management, Thalès, l'entreprise qui héberge nos serveurs, devra mettre en place les pages de maintenance. 
+            Une fois cette étape accomplie, ils procéderont à l'arrêt des moteurs VTOM. Enfin, pour conclure, ils désactiveront les services applicatifs NOEE.  
+            <br>
+            <br>
+            2. Ensuite, nous allons examiner à l'aide de plusieurs commandes la date de la dernière mise à jour de certains services. Comme vous pouvez 
+            le constater dans les captures d'écran ci-dessous :</p>
+        <img src="../image/Screen1.png">
+    </div>
+    <div class="b">
+        <img src="../image/Screen2.png">
+        <p>3. En fait, dans le fichier pmgt_CPI.sh, plusieurs lignes de commandes sont présentes, accompagnées de commentaires. Lorsque nous supprimons 
+            les commentaires d'une ligne et exécutons le script, cela permet de vérifier quand la dernière mise à jour de ce service a été réalisée.
+            <br>
+            <br>
+            4. 
+            Ensuite, nous allons exécuter la commande qui effectuera la mise à jour (patch). Nous patienterons pendant 2 à 3 minutes, et la mise à jour sera alors effectuée. </p>
+    </div>
+    <div class="c">
+        <p>5. 
+            En conclusion, nous allons réexécuter toutes les commandes pour vérifier si les mises à jour ont bien été prises en compte sur l'ensemble des services..</p>
+        <img src="../image/Screen3.png">
+    </div>
+</body>
+</html>

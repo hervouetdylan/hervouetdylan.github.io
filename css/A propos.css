@@ -1,0 +1,102 @@
+* {
+    background-color: #24252a;
+    color: white;
+}
+
+
+/* NAVBAR */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav img{
+    height: 80px;
+    width: 80px;
+    border-radius: 90px;
+}
+
+nav h1 {
+    margin-right: 650px ;
+}
+
+nav ul {
+    background-color: #0088a9;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+nav ul li {
+    background-color: #0088a9;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    background-color: #0088a9;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+h2 {
+    text-align: center;
+}
+
+.cv {
+    height: 750px;
+    width: 500px;
+}
+
+
+img {
+    display: flex;
+    margin: auto;
+}
+
+.titre {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stage {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 200px;
+}
+
+.table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tableau {
+    height: 250px;
+    width: 250px;
+}

@@ -1,0 +1,113 @@
+* {
+    background-color: #24252a;
+    color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav img{
+    height: 80px;
+    width: 80px;
+    border-radius: 90px;
+    margin: auto;
+}
+
+nav h1 {
+    margin-right: 650px ;
+}
+
+nav ul {
+    background-color: #0088a9;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+nav ul li {
+    background-color: #0088a9;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    background-color: #0088a9;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+
+/* Coordonnés */
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+
+.haut{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+
+.haut i {
+    font-size: 24px;
+    background-color: #bc9864;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.haut h4{
+    font-family:'Poppins', sans-serif ;
+    color: #bc9864;
+}
+
+.address p {
+    color: #656565;
+}
+
+.phone p { 
+    color: white;
+}
+
+.email p {
+    color: white;
+}
+
+.bas {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.bas i {
+    font-size: 24px;
+    background-color: #bc9864;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+.bas h4 {
+    font-family:'Poppins', sans-serif ;
+    color: #bc9864;
+}
+
